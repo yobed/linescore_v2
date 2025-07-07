@@ -3,10 +3,8 @@
 import { useState } from 'react';
 import {
   Card,
-  CardAction,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
@@ -262,10 +260,10 @@ export default function Home() {
               <CardDescription>
                 <div className="space-y-2">
                   <div>
-                    <strong>Line Score:</strong> Search for games by entering a single team's inning-by-inning score.
+                    <strong>Line Score:</strong> Search for games by entering a single team&apos;s inning-by-inning score.
                   </div>
                   <div>
-                    <strong>Game Score:</strong> Search for games by entering both the visiting and home teams' inning-by-inning scores.
+                    <strong>Game Score:</strong> Search for games by entering both the visiting and home teams&apos; inning-by-inning scores.
                   </div>
                 </div>
               </CardDescription>
