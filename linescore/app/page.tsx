@@ -21,7 +21,7 @@ import { Header } from '@/components/ui/header';
 // Our settings:
 // Max vector size because of length of longest baseball game
 const MAX_VECTOR_SIZE = 26;
-
+// 
 // Our client
 async function queryLineScore(vector: number[]) {
   const { data, error } = await supabase.rpc('match_linescore', {
