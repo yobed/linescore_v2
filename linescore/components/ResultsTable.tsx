@@ -11,17 +11,6 @@ type LineScoreRow = {
   score_distance: number
 }
 
-type GameScoreRow = {
-  game_id: string
-  date: string
-  home_team: string
-  away_team: string
-  home_line_vector: number[] | string
-  away_line_vector: number[] | string
-  home_distance: number
-  away_distance: number
-  total_distance: number
-}
 
 
 interface ResultsTableProps {

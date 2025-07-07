@@ -1,15 +1,6 @@
 import React from "react"
 
 
-type LineScoreRow = {
-  id: string
-  date: string
-  team_id: string
-  opponent: string
-  game_id: string
-  line_vector: number[] | string
-  score_distance: number
-}
 
 type GameScoreRow = {
   game_id: string
@@ -24,9 +15,6 @@ type GameScoreRow = {
 }
 
 
-interface ResultsTableProps {
-  rows: LineScoreRow[];
-}
 
 
 export function GameScoreResultsTable({ rows }: { rows: GameScoreRow[] }) {
